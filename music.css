@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.track-info {
+    margin-bottom: 20px;
+}
+
+.controls, .seek-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.controls button, .seek-controls button {
+    background-color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.controls button:hover, .seek-controls button:hover {
+    background-color: #45a049;
+}
+
+.progress-bar {
+    margin-top: 20px;
+}
+
+.progress-bar input[type="range"] {
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Music Player</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="player">
+        <div class="track-info">
+            <span id="track-title">Track Title</span>
+        </div>
+        <audio id="audio" src="teri dewani.mp3"></audio>
+        <audio id="audio" src="ek pyar.mp3"></audio>
+        <audio id="audio" src="arman de.mp3"></audio>
+        <div class="controls">
+            <button onclick="prevTrack()">Prev</button>
+            <button onclick="playPause()">Play</button>
+            <button onclick="nextTrack()">Next</button>
+        </div>
+        <div class="seek-controls">
+            <button onclick="seekBackward()">-10s</button>
+            <button onclick="seekForward()">+10s</button>
+        </div>
+        <div class="progress-bar">
+            <input type="range" id="progress" value="0" max="100" step="1" onchange="seekTrack(this.value)">
+        </div>
+    </div>
+    <script src="music.js"></script>
+</body>
+</html>
