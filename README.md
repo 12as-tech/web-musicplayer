@@ -18,6 +18,4 @@ This project is a web-based music player that allows users to play, pause, and s
 ## Installation
 To run this project locally, follow these steps:
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/musicplayer-webpage.git
+
