@@ -6,7 +6,7 @@ This project is a web-based music player that allows users to play, pause, and s
 ## Features
 - Play/Pause functionality
 - Skip to next/previous track
-- Display of current track information 
+- Display of current track information (title, artist, album)
 - Volume control
 - Responsive design
 
@@ -18,4 +18,6 @@ This project is a web-based music player that allows users to play, pause, and s
 ## Installation
 To run this project locally, follow these steps:
 
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/12as-tech/web-musicplayer
